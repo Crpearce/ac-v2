@@ -14,7 +14,7 @@ import Concrete from "../routes/concrete/concrete.component";
 import Areas from "../routes/areas/areas.component";
 import Reviews from "../routes/reviews/reviews.component";
 import Footer from "../components/footer/footer.component";
-import "./App.css";
+
 
 function App() {
   const [windowDimension, setWindowDimension] = useState(null);
