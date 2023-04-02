@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height:20vh;
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.logo-container {
+    padding-bottom: 1.5vh;
+}
+
+.copyright {
+    color: white;
+    font-weight: 200;
+    font-size: .7rem;
+}
+
+.copyright-address {
+    color: white;
+    font-weight: 200;
+    font-size: .7rem;
+}

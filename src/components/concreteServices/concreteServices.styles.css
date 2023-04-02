@@ -1,0 +1,60 @@
+.concrete-services-link-container {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.concrete-services-link-header {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.concrete-services-link-container:hover,
+.concrete-services-link-container:hover .concrete-services-link-header {
+    color: #c80001;
+}
+
+
+.concrete-services-link-schedule {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.35em;
+    letter-spacing: .07rem;
+    font-weight: 100;
+    color: white;
+}
+
+.concrete-services-link-button {
+    background-color: #c80001;
+    color: white;
+}
+
+.concrete-services-link-button:hover {
+    color: #c80001;
+    background-color: black;
+    font-weight: 900;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .concrete-services-link-container {
+        height: 40vh;
+    }
+
+    .concrete-services-link-header {
+        font-size: 2.15rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .concrete-services-link-container {
+        height: 35vh;
+    }
+    .concrete-services-link-header {
+        font-size: 1.2rem;
+    }
+    .concrete-services-link-schedule {
+        font-size: .85rem;
+    }
+   }

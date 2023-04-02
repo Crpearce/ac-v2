@@ -1,0 +1,46 @@
+.remodeling-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remodeling-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    padding: 5vh;
+    width: 100%;
+}
+
+.remodeling-reach {
+    color: #c80001;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: .04rem;
+    font-weight: 100;
+}
+
+.remodeling-ready {
+    margin-top: 0;
+}
+
+.remodeling-types {
+    width: 70vw;
+    font-size: 1.1em;
+    font-weight: 200;
+    color:#4a4a4a;
+    text-align: left;
+}
+
+.remodeling-number {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 500;
+    color:#4a4a4a;
+}
+.contact-button {
+    background-color: black;
+    color: white;
+}

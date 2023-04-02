@@ -1,0 +1,76 @@
+.projects-wrapper {
+    display:flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+}
+
+.additions-link-container,
+.concrete-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.additions-link-title,
+.concrete-link-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    color: #c80001;
+    margin: 1vh;
+}
+
+.additions-link-title,
+.additions-link-text,
+.concrete-link-title,
+.concrete-link-text {
+    color: white;
+    font-size: 2.95rem;
+    letter-spacing: .15rem;
+}
+
+.additions-link-container:hover,
+.additions-link-container:hover .additions-link-title,
+.concrete-link-container:hover,
+.concrete-link-container:hover .concrete-link-title {
+    color: #c80001;
+}
+
+.concrete-link-text,
+.additions-link-text{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: .06rem;
+    word-spacing: .2rem;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .concrete-link-text,
+    .additions-link-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .remodeling-link-text, 
+    .structural-link-text {
+        width: 90%;
+        padding-top: 2vh;
+    }
+
+    .additions-link-title,
+    .concrete-link-title {
+        font-size: 2.1rem;
+    }
+
+    .additions-link-text,
+    .concrete-link-text {
+        font-size: 1rem;
+        width: 90%;
+    }
+   }

@@ -1,0 +1,73 @@
+.work-type-wrapper {
+    display: flex;
+    height: 55vh;
+    width: 100%;
+}
+
+.remodeling-link-container,
+.structural-link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.remodeling-link-header,
+.structural-link-header{
+    color: white;
+    font-size: 2.65rem;
+}
+
+.remodeling-link-text,
+.structural-link-text {
+    color: white;
+    font-size: 1.25vw;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .06rem;
+}
+
+.remodeling-link-container:hover,
+.remodeling-link-container:hover .remodeling-link-header,
+.structural-link-container:hover,
+.structural-link-container:hover .structural-link-header {
+    color: #c80001;
+    transform: scale(1.1);
+    transition: transform .75s ease;
+}
+
+@media screen and (max-width: 1024px) {
+    .work-type-wrapper {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .remodeling-link-container,
+    .structural-link-container {
+    width: 100%;
+    height: 40vh;
+    }
+
+    .remodeling-link-text,
+    .structural-link-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .remodeling-link-text, 
+    .structural-link-text {
+        width: 90%;
+        padding-top: 2vh;
+    }
+
+    .remodeling-link-header,
+    .structural-link-header {
+        font-size: 2.1rem;
+    }
+
+    .remodeling-link-text,
+    .structural-link-text {
+        font-size: 1rem;
+    }
+   }

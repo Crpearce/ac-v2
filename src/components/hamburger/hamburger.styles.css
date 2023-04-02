@@ -1,0 +1,12 @@
+.hamburger-container {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 12.5vh;
+}
+
+.hamburger-icon {
+    color: white;
+    font-size: 3rem;
+    margin-left: 3vw;
+}

@@ -1,0 +1,43 @@
+.special-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 55vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.special-text {
+    width: 40vw;
+    line-height: 2rem;
+}
+
+.special-image {
+    width: 35vw;
+    box-shadow: rgb(252, 251, 251) 0px 1px 4px, rgb(255, 255, 255) 0px 0px 0px 3px;
+}
+
+.special-image:hover {
+    transform: scale(1.18);
+    transition: transform .75s ease;
+}
+
+
+@media screen and (max-width: 414px) {
+    .special-container {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 8vh;
+    }
+    .special-text {
+        width: 80%;
+        line-height: 1.5rem;
+        font-size: 1rem;
+        padding-bottom: 2vh;
+    }
+
+    .special-image {
+        width: 70%;
+    }
+   }

@@ -1,0 +1,28 @@
+.modal-container {
+    height: 100%;
+    position: fixed;
+    width: 35%;
+    z-index: 3;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 7vh;
+    text-align: left;
+}
+
+.ham-links {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    /* margin-left: 0vw;
+    margin-right: 0vw;
+    padding-left: 0vw;
+    padding-right: 0vw; */
+}
+
+@media screen and (max-width: 414px) {
+    .modal-container {
+        width: 55%;
+    }
+   }

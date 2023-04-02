@@ -1,0 +1,57 @@
+.hours-container {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c80001;
+    width: 50%;
+    margin: 15vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.hours-title {
+    margin-bottom: 1vh;
+}
+
+.phone-number-hours {
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 3px;
+    text-decoration-color: black;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+}
+
+.hours-operation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    margin-bottom: 5vh;
+    border-color: black;
+    border-style: double;
+}
+
+.hours {
+    font-family: 'Lato', sans-serif;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: 4vw;
+    margin-right: 2vw;
+}
+
+.phone-number-hours:hover {
+    color: black;
+    text-underline-offset: 10px;
+}
+
+@media screen and (max-width: 414px) {
+    .hours-container {
+        width: 90%
+    }
+
+    .hours {
+        margin-left: 10vw;
+        margin-right: 8vw;
+    }
+   }

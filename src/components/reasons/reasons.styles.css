@@ -1,0 +1,94 @@
+.reasons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.reasons-container {
+    width: 70%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.reason-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    color: white;
+    margin: 0;
+}
+
+.reasons-description {
+    font-size: 1.1rem;
+    font-weight: 200;
+    color:#4a4a4a;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(1, 4fr);
+    gap: 1rem;
+    justify-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.reason-card {
+    display: flex;
+    justify-content: center;
+    border: .15rem solid #c80001;
+    background-color: #4a4a4a;
+    width: 35vw;
+    height: 3vh;
+    padding:10px;
+    contain: content;
+    border-radius: 6px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .reason-card {
+        width: 65vw;
+    }
+
+    .reasons-description, 
+    .reason-text {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .reasons-container {
+        width: 85%;
+    }
+    .reasons-header-text {
+        font-size: 1.4rem;
+        margin-top: 0vh;
+    }
+
+    .list {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .reason-card {
+        align-items: center;
+        width: 40vw;
+        height: 13vh;
+        padding: 0;
+    }
+    .reason-text {
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        font-size: .95rem;
+    }
+
+    .reasons-description {
+        font-size: 1rem;
+    }
+   }
+
+   

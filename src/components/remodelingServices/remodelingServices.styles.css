@@ -1,0 +1,30 @@
+.remodeling-services-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.remodeling-services-container {
+    width: 40%;
+}
+.remodeling-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 200;
+    margin-left: 3vw;
+    font-size:1em;
+}
+
+.remodeling-details {
+    text-align: left;
+    font-size:1.1em;
+    font-weight: lighter;
+}
+
+.services-header {
+    color: #c80001;
+}

@@ -1,0 +1,137 @@
+.home-additions-wrapper {
+    display: flex;
+    height: 70vh;
+}
+
+.home-images-container,
+.home-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.home-images-container {
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+
+.home-details-container {
+    justify-content:space-evenly;
+    color: white;
+    background-color: #4a4a4a;
+    padding: 1.5rem;
+    line-height: 1.5;
+}
+
+.home-additions-header {
+    font-size: 3rem;
+    display: flex;
+    color: white;
+    font-weight: 300;
+    margin-left: 0;
+}
+
+.home-additions-text {
+    width: 85%;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.addition-image {
+    width: 35vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.addition-image:hover {
+    width: 40vw;
+    transition: all 600ms ease;
+}
+
+.home-additions-types-container {
+    display: flex;
+    justify-content: space-around;
+    height: 45vh;
+    background-color: white;
+}
+
+.popular-addition-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-around;
+    padding: 1.5rem;
+    width: 35%;
+}
+
+.popular-additions-header {
+    display: flex;
+    text-align: left;
+    font-size: 1.75rem;
+    font-weight: 300;
+    color: #c80001;
+}
+
+.popular-additions-text {
+    text-align: left;
+    width: 85%;
+    font-size: 1.2rem;
+}
+
+.popular-addition-options-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: square;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    width: 45%
+}
+
+.additions-list {
+    text-align: left;
+    font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+    font-size: 1.3rem;
+    /* position:relative; */
+}
+
+.additions-list:hover {
+    font-size: 1.4rem;
+    transition: all 600ms ease;
+}
+
+.room-addition-container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+
+.room-addition-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.room-addition-image {
+    width:30vw;
+    margin:1rem;
+}
+
+.room-additions-header {
+    display: flex;
+    font-size: 1.85rem;
+    font-weight: 300;
+    color: #c80001;
+    text-align: center;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+.room-addition-text {
+    position:static;
+    text-align: left;
+    color:#4a4a4a;
+    font-size: 1.15rem;
+    padding: 2rem;
+    line-height: 1.5em;
+}

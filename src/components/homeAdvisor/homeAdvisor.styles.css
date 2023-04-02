@@ -1,0 +1,54 @@
+.home-advisor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.home-advisor-logo {
+    width: 15vw;
+    padding-top:3vh;
+}
+
+.home-advisor-header {
+    font-size: 2.25rem;
+}
+
+.home-advisor-text {
+    width: 70vw;
+    font-size: 1.25rem;
+    font-weight: 100;
+    color:#4a4a4a;
+}
+
+.advisor-icon,
+.google-icon,
+.yelp-icon {
+    color: black;
+    font-size: 3rem;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.advisor-icon:hover,
+.google-icon:hover,
+.yelp-icon:hover {
+    color: #c80001;
+}
+
+@media screen and (max-width: 414px) {
+    .home-advisor-header {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .home-advisor-logo {
+        width: 30vw;
+    }
+
+    .home-advisor-text {
+        width: 85%;
+        font-size: 1rem;
+    }
+   }

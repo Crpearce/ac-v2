@@ -1,0 +1,78 @@
+.greeting-container {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.greeting-logo {
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    width: 40%;
+}
+
+.trust {
+    margin-top: 5vh;
+    margin-bottom: 0vh;
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+}
+
+.intro {
+    color: rgb(219, 219, 219);
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: .07rem;
+}
+
+.greeting-container:hover .intro {
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+ .trust {
+    font-size: 1.85rem;
+ }
+
+ .intro {
+    font-size: 1.25rem;
+ }
+
+ .greeting-logo {
+    width: 50%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+    .trust {
+       font-size: 1.15rem;
+    }
+   
+    .intro {
+       font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+ .greeting-container {
+    height: 65vh;
+ }
+
+ .greeting-logo {
+    width: 65%;
+ }
+
+ .trust {
+    font-size: 1.5rem;
+    padding-left: 2vw;
+    margin-top: 3vh;
+    text-align: center;
+ }
+
+ .intro {
+    width: 90%;
+    font-size: 1rem;
+ }
+}
