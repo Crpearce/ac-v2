@@ -16,15 +16,64 @@
     align-items: flex-start;
     font-weight: 200;
     margin-left: 3vw;
-    font-size:1em;
+    font-size:1rem;
 }
 
 .remodeling-details {
     text-align: left;
-    font-size:1.1em;
+    font-size:1.1rem;
     font-weight: lighter;
 }
 
 .services-header {
     color: #c80001;
 }
+
+.apartment-basement {
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .remodeling-container {
+        flex-direction: column;
+    }
+
+    .remodeling-services-wrapper {
+        flex-direction: column-reverse;
+        height: auto;
+        margin: 0;
+        padding-bottom: 3vh;
+    }
+
+    .remodeling-list {
+        display: grid;
+        grid-template-columns: repeat(2, 4fr);
+        justify-items: start;
+    }
+
+    .remodeling-services-container {
+        width: 85%
+    }
+
+    .apartment-basement {
+        width: 85%;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .remodeling-ready {
+        font-size: 1.5rem;
+    }
+
+    .remodeling-reach {
+        font-size: .9rem;
+    }
+
+    .remodeling-types {
+        text-align: center;
+        width: 85%;
+    }
+   }

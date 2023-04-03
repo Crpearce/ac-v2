@@ -34,7 +34,7 @@ const RemodelingServices = () => {
         </p>
       </div>
       <div className="remodeling-services-photo" data-aos="fade-left">
-        <img src={basement} alt='remodeled apartment basement'/>
+        <img src={basement} alt='remodeled apartment basement' className="apartment-basement"/>
       </div>
     </div>
   );
