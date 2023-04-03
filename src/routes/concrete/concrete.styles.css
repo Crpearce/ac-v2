@@ -22,10 +22,6 @@
     border-bottom: .15rem solid;
 }
 
-.concrete-type-patio {
-    /* height:60vh; */
-}
-
 .concrete-additions-header1 {
     font-size: 2.5rem;
     margin-bottom: 0;
@@ -45,7 +41,6 @@
     padding-bottom:4rem;
     align-items: center;
 }
-
 
 .concrete-additions-info1 {
     display: flex;
