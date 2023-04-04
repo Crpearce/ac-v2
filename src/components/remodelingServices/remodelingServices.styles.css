@@ -4,12 +4,14 @@
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    padding-bottom: 3vh;
 }
 
 .remodeling-services-container {
     width: 40%;
+    padding-right: 5vw;
 }
+
 .remodeling-list {
     display: flex;
     flex-direction: column;
@@ -25,13 +27,19 @@
     font-weight: lighter;
 }
 
-.services-header {
+.remodeling-services-header {
     color: #c80001;
+    margin-right: 0;
 }
 
 .apartment-basement {
     border-radius: 5px;
 }
+
+/* .remodeling-services-photo {
+    margin-right: 0vw;
+    padding-right: 0vw;
+} */
 
 @media screen and (max-width: 1024px) {
     .remodeling-container {
@@ -42,6 +50,7 @@
         flex-direction: column-reverse;
         height: auto;
         margin: 0;
+        padding-top: 2vh;
         padding-bottom: 3vh;
     }
 
@@ -52,13 +61,22 @@
     }
 
     .remodeling-services-container {
-        width: 85%
+        width: 85%;
+        padding-right: 0vw;
     }
 
     .apartment-basement {
         width: 85%;
         padding-bottom: 3vh;
         padding-top: 3vh;
+    }
+
+    .remodeling-details {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: .9rem;
     }
 }
 
@@ -75,5 +93,12 @@
     .remodeling-types {
         text-align: center;
         width: 85%;
+        padding-top: .5vh;
+        padding-bottom: .5vh;
+        margin-top: .5vh;
+    }
+
+    .remodeling-services-container {
+        padding-right: 0vw;
     }
    }

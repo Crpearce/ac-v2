@@ -13,7 +13,7 @@ const RemodelingServices = () => {
   return (
     <div className="remodeling-services-wrapper">
       <div className="remodeling-services-container" data-aos="fade-right">
-        <h2 className="services-header">SERVICES WE OFFER</h2>
+        <h2 className="remodeling-services-header">SERVICES WE OFFER</h2>
         <p className="remodeling-details">
           Once we're done with our remodeling services, you'll love the way your
           place looks. Trust our team to remodel your:

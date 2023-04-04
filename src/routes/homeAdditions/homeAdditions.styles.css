@@ -1,6 +1,5 @@
 .home-additions-wrapper {
     display: flex;
-    height: 70vh;
 }
 
 .home-images-container,
@@ -14,6 +13,9 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 219, 219);
+    height: auto;
+    padding-top:15vh;
+    padding-bottom: 15vh;
 }
 
 .home-details-container {
@@ -44,14 +46,13 @@
 }
 
 .addition-image:hover {
-    width: 40vw;
+    width: 60vw;
     transition: all 600ms ease;
 }
 
 .home-additions-types-container {
     display: flex;
     justify-content: space-around;
-    height: 45vh;
     background-color: white;
 }
 
@@ -92,7 +93,6 @@
     text-align: left;
     font-family: 'Montserrat',Helvetica,Arial,sans-serif;
     font-size: 1.3rem;
-    /* position:relative; */
 }
 
 .additions-list:hover {
@@ -161,11 +161,12 @@
         margin: 0;
     }
 
-    .home-images-container {
+    .home-images-container, 
+    .home-details-container {
         width: 100%;
         padding-top: 5vh;
         padding-bottom: 5vh;
-        height: 25vh;
+        /* height: 25vh; */
     }
 
     .addition-image {
