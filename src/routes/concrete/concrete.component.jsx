@@ -65,22 +65,22 @@ const Concrete = () => {
           </p>
         </div>
         <ul className="popular-addition-options-container">
-          <li className="additions-list" data-aos="fade-left">
+          <li className="additions-list" data-aos="fade-in">
             Retaining walls
           </li>
-          <li className="additions-list" data-aos="fade-left">
+          <li className="additions-list" data-aos="fade-in">
             Concrete patio to boost your outdoor living space
           </li>
-          <li className="additions-list" data-aos="fade-left">
+          <li className="additions-list" data-aos="fade-in">
             Sidewalks
           </li>
-          <li className="additions-list" data-aos="fade-left">
+          <li className="additions-list" data-aos="fade-in">
             Concrete foundation to start your next building project
           </li>
-          <li className="additions-list" data-aos="fade-left">
+          <li className="additions-list" data-aos="fade-in">
             Concrete walkway to enhance your home's appearance
           </li>
-          <li className="additions-list" data-aos="fade-left">
+          <li className="additions-list" data-aos="fade-in">
             Fire Pits
           </li>
         </ul>
@@ -93,7 +93,7 @@ const Concrete = () => {
           <h6 className="pitch">
             RELY ON US FOR A TOP-OF-THE-LINE DRIVEWAY INSTALLATION
           </h6>
-          <div className="concrete-additions-info-container">
+          <div className="concrete-additions-info-container1">
             <p className="concrete-additions-info1" data-aos="fade-right">
               Driveways aren't just for parking - they also affect your home's
               curb appeal. Does your driveway have cracks, potholes, drainage
@@ -118,7 +118,7 @@ const Concrete = () => {
             WE OFFER PLENTY OF DECORATIVE CONCRETE PATIO OPTIONS TO GIVE YOU THE
             EXACT LOOK YOU'RE GOING FOR
           </h5>
-          <div className="concrete-additions-info-container">
+          <div className="concrete-additions-info-container2">
             <img
               src={patio}
               className="concrete-additions-photo"
@@ -144,7 +144,7 @@ const Concrete = () => {
             A NEW RETAINING WALL WILL HELP PREVENT EROSION AND MAKE YOUR YARD
             LOOK BEAUTIFUL
           </h6>
-          <div className="concrete-additions-info-container">
+          <div className="concrete-additions-info-container1">
             <p className="concrete-additions-info1" data-aos="fade-right">
               If your property is on a slope, it will erode more easily. Protect
               your landscape by getting a retaining wall from Alignment
@@ -168,7 +168,7 @@ const Concrete = () => {
           <h5 className="pitch">
             A STRONG BUILD STARTS WITH THE RIGHT FOUNDATION
           </h5>
-          <div className="concrete-additions-info-container">
+          <div className="concrete-additions-info-container2">
             <img
               src={foundation}
               className="concrete-additions-photo"
