@@ -8,7 +8,7 @@ import "./projects.styles.css";
 
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 1250 });
+    AOS.init({ duration: 2250 });
   }, []);
 
   return (
