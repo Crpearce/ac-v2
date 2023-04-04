@@ -12,7 +12,7 @@ const Modal = ({ hamLinks, hideNavHandler }) => {
   return (
     <div className="modal-wrapper">
       <div className="close-button-container">
-        <AiFillCloseCircle className="close-button" />
+        <AiFillCloseCircle className="close-button" onClick={hideNavHandler}/>
       </div>
       <div className="modal-container" data-aos="fade-right">
         {hamLinks.map((category) => (
