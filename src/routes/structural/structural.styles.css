@@ -10,6 +10,8 @@
     align-items: center;
     background-color: rgb(219, 219, 219);
     width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 .structural-reach {
@@ -20,16 +22,11 @@
     font-weight: 100;
 }
 
-.structural-ready {
-    margin-top: 0;
-}
-
 .structural-types {
-    width: 70vw;
-    font-size: 1em;
+    width: 75%;
+    font-size: 1.15em;
     font-weight: 200;
     color:#4a4a4a;
-    text-align: left;
 }
 
 .structural-number {
@@ -44,21 +41,32 @@
     color: white;
 }
 
+@media screen and (max-width: 1024px) {
+    .structural-reach {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .structural-ready {
+        font-size: 1.65rem;
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 414px) {
-.structural-ready {
-    font-size: 1.5rem;
+    .structural-ready {
+        font-size: 1.15rem;
+        width: 90%;
+    }
+
+    .structural-reach {
+        font-size: .85rem;
+        width: 90%;
+    }
+
+    .structural-types {
+        width: 90%;
+        font-size: .9rem;
+        text-align: center;
+    }
 }
-
-.structural-reach {
-    font-size: .85rem;
-    width: 90%;
-}
-
-.structural-types {
-    width: 90%;
-    font-size: 1rem;
-    text-align: center;
-}
-
-
-   }

@@ -1,15 +1,3 @@
-.concrete-image {
-    width: 33vw;
-    padding: 20px;
-    background-color: rgb(219, 219, 219);
-}
-
-.concrete-image:hover {
-    width: 36vw;
-    transition: all 500ms ease;
-    padding: 5px;
-}
-
 .concrete-contact-button {
     text-align: left;
     margin:0

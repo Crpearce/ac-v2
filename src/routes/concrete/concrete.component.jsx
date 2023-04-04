@@ -5,6 +5,7 @@ import driveway from "../../assets/driveway.png";
 import patio from "../../assets/patio.png";
 import retaining from "../../assets/retaining.png";
 import foundation from "../../assets/foundation.png";
+import concrete from '../../assets/concrete.png'
 
 import AOS from "aos";
 import "./concrete.styles.css";
@@ -40,13 +41,15 @@ const Concrete = () => {
         <div
           className="home-images-container"
           style={{
-            backgroundColor: "#4a4a4a",
+            backgroundImage: `url(${concrete})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
           }}
         >
           <img
             src={walkway}
             data-aos="fade-left"
-            className="concrete-image"
+            className="addition-image"
             alt="concrete block walkway"
           />
         </div>
