@@ -36,10 +36,6 @@
     border-radius: 5px;
 }
 
-/* .remodeling-services-photo {
-    margin-right: 0vw;
-    padding-right: 0vw;
-} */
 
 @media screen and (max-width: 1024px) {
     .remodeling-container {
@@ -78,8 +74,11 @@
     li {
         font-size: .9rem;
     }
-}
 
+    .remodeling-services-header {
+        margin-top:0vh;
+    }
+}
 
 @media screen and (max-width: 414px) {
     .remodeling-ready {
