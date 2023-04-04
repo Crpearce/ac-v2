@@ -94,7 +94,7 @@ const Concrete = () => {
             RELY ON US FOR A TOP-OF-THE-LINE DRIVEWAY INSTALLATION
           </h6>
           <div className="concrete-additions-info-container1">
-            <p className="concrete-additions-info1" data-aos="fade-right">
+            <p className="concrete-additions-info1" data-aos="fade-in">
               Driveways aren't just for parking - they also affect your home's
               curb appeal. Does your driveway have cracks, potholes, drainage
               problems or an overall rough look? A new driveway can increase
@@ -124,7 +124,7 @@ const Concrete = () => {
               className="concrete-additions-photo"
               alt="concrete project"
             />
-            <p className="concrete-additions-info2" data-aos="fade-left">
+            <p className="concrete-additions-info2" data-aos="fade-in">
               Do you want the perfect spot to sit and enjoy the weather? A
               decorative concrete patio can make your property more attractive
               while adding a new space to your home. Alignment Construction in
@@ -145,7 +145,7 @@ const Concrete = () => {
             LOOK BEAUTIFUL
           </h6>
           <div className="concrete-additions-info-container1">
-            <p className="concrete-additions-info1" data-aos="fade-right">
+            <p className="concrete-additions-info1" data-aos="fade-in">
               If your property is on a slope, it will erode more easily. Protect
               your landscape by getting a retaining wall from Alignment
               Construction. We offer retaining wall installation services for
@@ -174,7 +174,7 @@ const Concrete = () => {
               className="concrete-additions-photo"
               alt="concrete project"
             />
-            <p className="concrete-additions-info2" data-aos="fade-left">
+            <p className="concrete-additions-info2" data-aos="fade-in">
               Your new home or commercial build is a huge investment. When the
               time comes to pour the foundation at your new construction
               project, contact Alignment Construction. With over 15 years

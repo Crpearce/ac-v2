@@ -249,6 +249,8 @@
     .popular-additions-header, 
     .popular-additions-text {
         text-align: center;
+        padding-left: 0vw;
+        width: 100%;
     }
 
     .popular-additions-header {
@@ -281,4 +283,5 @@
     .room-addition-text {
         font-size: 1rem;
     }
+
    }
