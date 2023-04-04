@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     background-color: white;
+    width: 100%;
 }
 
 .about-container {
@@ -19,6 +20,18 @@
     font-size: 1.1rem;
     font-weight: 100;
     color:#4a4a4a;
+}
+
+.about-ready {
+    padding-top: 1vh;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-types {
+        font-size: 1.15rem;
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 414px) {

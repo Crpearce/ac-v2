@@ -2,8 +2,9 @@
     display: flex;
     background-color: black;
     color: white;
-    height: 55vh;
     width: 100vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -34,7 +35,8 @@
         width: 80%;
         line-height: 1.5rem;
         font-size: 1rem;
-        padding-bottom: 2vh;
+        padding-bottom: 5vh;
+        margin-top: 1vh;
     }
 
     .special-image {

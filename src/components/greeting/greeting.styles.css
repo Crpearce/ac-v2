@@ -32,6 +32,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+
+.greeting-container {
+   height: auto;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+ }
  .trust {
     font-size: 1.85rem;
  }
@@ -41,23 +47,25 @@
  }
 
  .greeting-logo {
-    width: 50%;
+    width: 60%;
  }
 }
 
 @media screen and (max-width: 768px) {
     .trust {
-       font-size: 1.15rem;
+       font-size: 1.5rem;
     }
    
     .intro {
-       font-size: 1rem;
+       font-size: 1.25rem;
     }
 }
 
 @media screen and (max-width: 414px) {
  .greeting-container {
-    height: 65vh;
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
  }
 
  .greeting-logo {

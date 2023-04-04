@@ -15,14 +15,14 @@
 .ham-links {
     margin-top: 1vh;
     margin-bottom: 1vh;
-    /* margin-left: 0vw;
-    margin-right: 0vw;
-    padding-left: 0vw;
-    padding-right: 0vw; */
 }
 
 @media screen and (max-width: 414px) {
     .modal-container {
         width: 55%;
+    }
+
+    .ham-tab {
+        font-size: .9rem;
     }
    }

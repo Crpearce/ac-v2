@@ -11,7 +11,10 @@ const Banner = ({ sectionName }) => {
         backgroundSize: "cover",
       }}
     >
-      {sectionName}
+      <h1 className="banner-header">
+        
+        {sectionName}
+        </h1>
     </div>
   );
 };
