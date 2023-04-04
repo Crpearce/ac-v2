@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import kitchenAddition from "../../assets/kitchenAddition.png";
+import kitchenAddition from "../../assets/kitchenAddition.webp";
 import wood from "../../assets/wood.png";
-import addition1 from "../../assets/addition1.png";
-import addition2 from "../../assets/addition2.png";
+import addition1 from "../../assets/addition1.webp";
+import addition2 from "../../assets/addition2.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./homeAdditions.styles.css";

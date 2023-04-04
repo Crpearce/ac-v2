@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import blueprint from "../../assets/blueprint.png";
-import concrete2 from "../../assets/concrete2.png";
+import blueprint from "../../assets/blueprint.webp";
+import concrete2 from "../../assets/concrete2.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./projects.styles.css";
 
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 2250 });
+    AOS.init({ duration: 2000 });
   }, []);
 
   return (
@@ -16,7 +16,7 @@ const Projects = () => {
       <Link
         to='/home-additions'
         className="additions-link-container"
-        data-aos="fade-up-right"
+        data-aos="zoom-in-up"
         data-aos-anchor-placement="bottom-bottom"
         style={{
           backgroundImage: `url(${blueprint})`,
@@ -32,7 +32,7 @@ const Projects = () => {
       <Link
         to='/concrete'
         className="concrete-link-container"
-        data-aos="fade-up-left"
+        data-aos="zoom-in-up"
         data-aos-anchor-placement="top-bottom"
         style={{
           backgroundImage: `url(${concrete2})`,

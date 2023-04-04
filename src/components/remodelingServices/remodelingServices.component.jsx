@@ -1,10 +1,8 @@
 import { useEffect } from "react";
-import basement from "../../assets/basementRemodel.png";
+import basement from "../../assets/basementRemodel.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./remodelingServices.styles.css";
-
-
 
 const RemodelingServices = () => {
     useEffect(() => {
@@ -16,7 +14,7 @@ const RemodelingServices = () => {
         <h2 className="remodeling-services-header">SERVICES WE OFFER</h2>
         <p className="remodeling-details">
           Once we're done with our remodeling services, you'll love the way your
-          place looks. Trust our team to remodel your:
+          place looks. Trust our team to remodel or improve your:
         </p>
         <ul className="remodeling-list">
           <li>Bathroom</li>

@@ -1,4 +1,4 @@
-import concrete from "../../assets/concrete.png";
+import concrete from "../../assets/concrete.webp";
 import { Link } from "react-router-dom";
 import "./concreteServices.styles.css";
 

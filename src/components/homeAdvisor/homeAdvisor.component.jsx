@@ -1,9 +1,9 @@
-import "./homeAdvisor.styles.css";
 import { Link } from "react-router-dom";
-import homeAdvisor from "../../assets/homeAdvisor.png";
+import homeAdvisor from "../../assets/homeAdvisor.webp";
 import { SiHomeadvisor } from "react-icons/si";
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { BsYelp } from "react-icons/bs";
+import "./homeAdvisor.styles.css";
 
 
 

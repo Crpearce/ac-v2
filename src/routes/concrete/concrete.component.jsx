@@ -1,11 +1,12 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import walkway from "../../assets/walkway.png";
-import driveway from "../../assets/driveway.png";
+import driveway from "../../assets/driveway.webp";
 import patio from "../../assets/patio.png";
-import retaining from "../../assets/retaining.png";
-import foundation from "../../assets/foundation.png";
-import concrete from '../../assets/concrete.png'
+import retaining from "../../assets/retaining.webp";
+import foundation from "../../assets/foundation.webp";
+import concrete from '../../assets/concrete.webp'
+import concrete3 from '../../assets/concrete3.webp'
+
 
 import AOS from "aos";
 import "./concrete.styles.css";
@@ -19,24 +20,24 @@ const Concrete = () => {
 
   return (
     <>
-      <div className="home-additions-wrapper">
+      <div className="concrete-additions-wrapper">
         <div className="home-details-container">
-          <h4 className="home-additions-header" data-aos="fade-right">
-            Concrete
+          <h4 className="home-additions-header" data-aos="fade-left">
+            Concrete Services
           </h4>
-          <p className="home-additions-text" data-aos="fade-right">
+          <p className="home-additions-text" data-aos="fade-left">
             Looking for a new retaining wall, concrete patio, sidewalk,
             foundation, firepit, walkway or driveway? You can look to us for
             both commercial and residential projects. Reach out now for concrete
             driveway installation in Littleton & Aurora, CO.
           </p>
-          <Link
-            to="/contact"
-            className="concrete-contact-button"
-            data-aos="fade-right"
-          >
-            <button>Contact Us</button>
-          </Link>
+
+          <p className="home-additions-text" data-aos="fade-left">
+            Looking for a new retaining wall, concrete patio, sidewalk,
+            foundation, firepit, walkway or driveway? You can look to us for
+            both commercial and residential projects. Reach out now for concrete
+            driveway installation in Littleton & Aurora, CO.
+          </p>
         </div>
         <div
           className="home-images-container"
@@ -47,9 +48,9 @@ const Concrete = () => {
           }}
         >
           <img
-            src={walkway}
-            data-aos="fade-left"
-            className="addition-image"
+            src={concrete3}
+            data-aos="fade-right"
+            className="concrete-image"
             alt="concrete block walkway"
           />
         </div>

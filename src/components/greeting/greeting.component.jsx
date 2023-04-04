@@ -1,11 +1,8 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-
 import AOS from "aos";
-
-import logo from "../../assets/logo.png";
-import homeBg from "../../assets/homeBg.png";
-
+import logo from "../../assets/logo.webp";
+import homeBg from "../../assets/homeBg.webp";
 import "./greeting.styles.css";
 import "aos/dist/aos.css";
 

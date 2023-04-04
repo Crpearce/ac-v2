@@ -1,5 +1,5 @@
 import "./banner.styles.css";
-import banner from "../../assets/banner.png";
+import banner from "../../assets/banner.webp";
 
 const Banner = ({ sectionName }) => {
   return (

@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 414px) {
+    .banner-container {
+        
+    }
+
     .banner-header {
         font-size: 1.75rem;
         letter-spacing: .05rem;

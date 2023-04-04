@@ -1,11 +1,9 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
-
-import kitchen from "../../assets/remodeling.png";
-import construction from "../../assets/structural.png";
-
-import "./workTypes.styles.css";
+import kitchen from "../../assets/remodeling.webp";
+import construction from "../../assets/structural.webp";
 import AOS from "aos";
+import "./workTypes.styles.css";
 import "aos/dist/aos.css";
 
 const WorkTypes = () => {

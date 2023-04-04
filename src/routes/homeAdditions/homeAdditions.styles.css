@@ -13,22 +13,21 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(219, 219, 219);
-    height: auto;
     padding-top:12vh;
     padding-bottom: 12vh;
 }
 
 .home-details-container {
     justify-content:space-evenly;
-    color: white;
-    background-color: #4a4a4a;
+    color: #4a4a4a;
+    background-color: rgb(219, 219, 219);
     line-height: 1.5;
 }
 
 .home-additions-header {
     font-size: 3rem;
     display: flex;
-    color: white;
+    color: #c80001;
     font-weight: 300;
     margin-left: 0;
     padding-left: 3vw;
@@ -44,11 +43,6 @@
 .addition-image {
     width: 35vw;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-
-.addition-image:hover {
-    width: 60vw;
-    transition: all 600ms ease;
 }
 
 .home-additions-types-container {
@@ -97,11 +91,6 @@
     text-align: left;
     font-family: 'Montserrat',Helvetica,Arial,sans-serif;
     font-size: 1.3rem;
-}
-
-.additions-list:hover {
-    font-size: 1.4rem;
-    transition: all 600ms ease;
 }
 
 .room-addition-container {
@@ -173,7 +162,12 @@
     }
 
     .addition-image {
-        width: 75%;
+        width: 65%;
+    }
+
+    .home-images-container {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
     }
 
     .home-details-container {
@@ -199,7 +193,7 @@
     }
 
     .room-addition-image {
-        width: 80%;
+        width: 70%;
     }
 
     .room-additions-header {
@@ -276,7 +270,6 @@
 
     .room-additions-header {
         font-size: 1.85rem;
-
     }
 
     .room-addition-text {
