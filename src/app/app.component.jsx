@@ -18,7 +18,6 @@ import Footer from "../components/footer/footer.component";
 
 function App() {
   const [windowDimension, setWindowDimension] = useState(null);
-  console.log(window.innerWidth)
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
