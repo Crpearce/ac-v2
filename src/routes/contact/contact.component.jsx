@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import logo2 from '../../assets/logo2.webp';
 import { useEffect } from "react";
 import "./contact.styles.css";
+import ServeBar from "../../components/serveBar/serveBar.component";
 
 const Contact = () => {
   useEffect(() => {
@@ -39,6 +40,7 @@ const Contact = () => {
           or fill out the form below to learn more about our services today.
         </span>
       </div>
+      <ServeBar />
     </div>
   );
 };

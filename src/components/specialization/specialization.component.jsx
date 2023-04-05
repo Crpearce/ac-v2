@@ -2,7 +2,7 @@ import "./specialization.styles.css";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import beam3 from '../../assets/beam3.png';
+import kitchenReno from '../../assets/kitchenReno.webp';
 
 const Specialization = () => {
     useEffect(() => {
@@ -16,7 +16,7 @@ const Specialization = () => {
         other Home Improvement projects. We are a bilingual company, and are
         happy to serve both our English and Spanish Speaking communities!
       </p>
-      <img src={beam3} alt='remodeled living room' className="special-image"/>
+      <img src={kitchenReno} alt='remodeled living room' className="special-image"/>
     </div>
   );
 };

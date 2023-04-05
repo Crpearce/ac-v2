@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import AOS from "aos";
 
-import beam1 from "../../assets/beam1.png";
-import beam2 from "../../assets/beam2.png";
-import beam3 from "../../assets/beam3.png";
+import beam1 from "../../assets/beam1.webp";
+import beam2 from "../../assets/beam2.webp";
+import beam3 from "../../assets/beam3.webp";
 
 import "./structuralServices.styles.css";
 import "aos/dist/aos.css";
