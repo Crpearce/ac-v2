@@ -40,7 +40,8 @@ function App() {
       const loaderElement = document.querySelector(".loader-container");
       if (loaderElement) {
         loaderElement.remove();
-        setLoading(false);
+        setTimeout(
+        setLoading(false), 2500);
     };
   }, [isLoading]);
 
