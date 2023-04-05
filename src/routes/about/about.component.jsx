@@ -14,6 +14,7 @@ const About = () => {
     <section className="about-wrapper">
       <Banner sectionName='About Us'/>
       <HomeAdvisor />
+      <ServeBar />
       <Specialization />
       <div className="about-container">
         <h2 className="about-ready">
@@ -31,7 +32,6 @@ const About = () => {
           <button className="concrete-services-link-button">Contact Us</button>
         </Link>
       </div>
-      <ServeBar />
     </section>
   );
 };

@@ -138,6 +138,17 @@
         padding-top: 2vh;
         padding-bottom: 2vh;
     }
+
+    /* .popular-addition-options-container {
+        display: flex;
+        text-align: left;
+    } */
+
+    .additions-list {
+        text-align: left;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
     
     .concrete-additions-header1,
     .concrete-additions-header2 {

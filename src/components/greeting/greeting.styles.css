@@ -1,15 +1,17 @@
 .greeting-container {
     display: flex;
-    height: 90vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .greeting-logo {
     box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
-    width: 40%;
+    width: 30%;
 }
 
 .trust {
@@ -32,23 +34,22 @@
 }
 
 @media screen and (max-width: 1024px) {
+   .greeting-container {
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+   }
 
-.greeting-container {
-   height: auto;
-   padding-top: 10vh;
-   padding-bottom: 10vh;
- }
- .trust {
-    font-size: 1.85rem;
- }
+   .trust {
+      font-size: 2rem;
+   }
 
- .intro {
-    font-size: 1.25rem;
- }
+   .intro {
+      font-size: 1.25rem;
+   }
 
- .greeting-logo {
-    width: 60%;
- }
+   .greeting-logo {
+      width: 35%;
+   }
 }
 
 @media screen and (max-width: 768px) {
@@ -62,14 +63,8 @@
 }
 
 @media screen and (max-width: 414px) {
- .greeting-container {
-    height: auto;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
- }
-
  .greeting-logo {
-    width: 65%;
+    width: 45%;
  }
 
  .trust {
@@ -82,5 +77,9 @@
  .intro {
     width: 90%;
     font-size: 1rem;
+ }
+
+ button {
+   font-size: .5rem;
  }
 }

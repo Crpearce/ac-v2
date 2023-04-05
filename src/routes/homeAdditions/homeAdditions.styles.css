@@ -108,6 +108,7 @@
 .room-addition-image {
     width:30vw;
     margin:1rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .room-additions-header {
@@ -162,20 +163,25 @@
     }
 
     .addition-image {
-        width: 65%;
+        width: 55%;
+    }
+
+    .home-additions-text {
+        width: 80%;
+        line-height: 2rem;
     }
 
     .home-images-container {
-        padding-top: 5vh;
-        padding-bottom: 5vh;
+        padding-top: 7vh;
+        padding-bottom: 8vh;
     }
 
     .home-details-container {
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-top: 2vh;
-        padding-bottom: 4vh;
+        padding-top: 4vh;
+        padding-bottom: 8vh;
         align-items: center;
         padding-left: 0vw;
         
@@ -193,7 +199,7 @@
     }
 
     .room-addition-image {
-        width: 70%;
+        width: 65%;
     }
 
     .room-additions-header {

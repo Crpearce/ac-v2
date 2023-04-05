@@ -93,5 +93,7 @@ li {
 
     .structural-details {
         font-size: 1rem;
+        text-align: left;
+        width: 85%;
     }
 }

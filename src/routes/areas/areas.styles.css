@@ -1,9 +1,14 @@
-.areas-container {
+.service-areas-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: scroll;
     background-color: rgb(219, 219, 219);
+    padding-bottom: 8vh;
+}
+
+.service-area-container {
+    display: flex;
+    justify-content: space-around;
 }
 
 .service-header{
@@ -14,30 +19,33 @@
 }
 
 .areas-text {
-    width: 50%;
-    font-size: 1.1rem;
+    display: flex;
+    text-align: left;
+    align-items: flex-start;
+    width: 40%;
+    font-size: 1.2rem;
     font-weight: 300;
-    background-color: white;
-    line-height: 1.75rem;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    border-radius:8px;
-    padding: 20px;
+    line-height: 2.25rem;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .service-areas-list {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
-    padding-left: 4vw;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+
+    /* padding-bottom: 2vh;
+    padding-left: 2vw; */
+    padding: 5px;
     background-color: white;
     border-style: solid;
     border-width: 2px;
     border-color: black;
-    border-radius:8px;
+    border-radius: 8px;
+    width: 50%;
+    justify-items: center;
+    align-items: center;
 }
 
 .city-name {

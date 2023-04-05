@@ -44,4 +44,8 @@
         font-size: 1rem;
         width: 80%;
     }
+
+    .grey-button {
+        font-size: .5rem;
+    }
    }

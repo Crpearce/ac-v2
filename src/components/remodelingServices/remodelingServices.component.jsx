@@ -6,11 +6,11 @@ import "./remodelingServices.styles.css";
 
 const RemodelingServices = () => {
     useEffect(() => {
-      AOS.init({ duration: 1250 });
+      AOS.init({ duration: 2250 });
     }, []);
   return (
     <div className="remodeling-services-wrapper">
-      <div className="remodeling-services-container" data-aos="fade-right">
+      <div className="remodeling-services-container" data-aos="fade-rin">
         <h2 className="remodeling-services-header">SERVICES WE OFFER</h2>
         <p className="remodeling-details">
           Once we're done with our remodeling services, you'll love the way your
@@ -31,7 +31,7 @@ const RemodelingServices = () => {
           with Alignment Construction in Littleton, CO now.
         </p>
       </div>
-      <div className="remodeling-services-photo" data-aos="fade-left">
+      <div className="remodeling-services-photo" data-aos="fade-in">
         <img src={basement} alt='remodeled apartment basement' className="apartment-basement"/>
       </div>
     </div>
