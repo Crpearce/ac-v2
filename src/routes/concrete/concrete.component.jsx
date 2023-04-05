@@ -14,7 +14,7 @@ import "aos/dist/aos.css";
 
 const Concrete = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({ duration: 2200 });
     window.scrollTo(0, 0);
   }, []);
 
@@ -22,17 +22,17 @@ const Concrete = () => {
     <>
       <div className="concrete-additions-wrapper">
         <div className="home-details-container">
-          <h4 className="home-additions-header" data-aos="fade-left">
+          <h4 className="home-additions-header" data-aos="fade-in">
             Concrete Services
           </h4>
-          <p className="home-additions-text" data-aos="fade-left">
+          <p className="home-additions-text" data-aos="fade-in">
             Looking for a new retaining wall, concrete patio, sidewalk,
             foundation, firepit, walkway or driveway? You can look to us for
             both commercial and residential projects. Reach out now for concrete
             driveway installation in Littleton & Aurora, CO.
           </p>
 
-          <p className="home-additions-text" data-aos="fade-left">
+          <p className="home-additions-text" data-aos="fade-in">
             Looking for a new retaining wall, concrete patio, sidewalk,
             foundation, firepit, walkway or driveway? You can look to us for
             both commercial and residential projects. Reach out now for concrete
@@ -49,7 +49,7 @@ const Concrete = () => {
         >
           <img
             src={concrete3}
-            data-aos="fade-right"
+            data-aos="fade-in"
             className="concrete-image"
             alt="concrete block walkway"
           />

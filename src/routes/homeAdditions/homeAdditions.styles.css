@@ -19,8 +19,8 @@
 
 .home-details-container {
     justify-content:space-evenly;
-    color: #4a4a4a;
-    background-color: rgb(219, 219, 219);
+    color: white;
+    background-color: #4a4a4a;
     line-height: 1.5;
 }
 

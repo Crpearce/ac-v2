@@ -26,16 +26,16 @@ const HomeAdditions = () => {
         >
           <img
             src={kitchenAddition}
-            data-aos="fade-right"
+            data-aos="fade-in"
             className="addition-image"
             alt="kitchen remodel blueprint"
           />
         </div>
         <div className="home-details-container">
-          <h4 className="home-additions-header" data-aos="fade-left">
+          <h4 className="home-additions-header" data-aos="fade-in">
             Home Additions
           </h4>
-          <p className="home-additions-text" data-aos="fade-left">
+          <p className="home-additions-text" data-aos="fade-in">
             Have you outgrown your home? Don't consider putting your home on the
             market just yet. Expand your space with a new home addition.
             Alignment Construction LLC has decades of construction experience.
