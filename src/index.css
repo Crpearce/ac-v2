@@ -12,6 +12,8 @@ body {
   overflow: scroll;
   scroll-behavior: smooth;
   position: absolute;
+  transition-duration: 5s;
+  transition-delay: 5s;
 }
 
 h2 {
