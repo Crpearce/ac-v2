@@ -18,6 +18,11 @@ import Footer from "../components/footer/footer.component";
 
 function App() {
   const [windowDimension, setWindowDimension] = useState(null);
+  const [isLoading, setLoading] = useState(true);
+
+  console.log(sections)
+  console.log(reasons)
+  console.log(cities)
 
   useEffect(() => {
     setWindowDimension(window.innerWidth);
@@ -30,6 +35,14 @@ function App() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  useEffect(() => { 
+      const loaderElement = document.querySelector(".loader-container");
+      if (loaderElement) {
+        loaderElement.remove();
+        setLoading(false);
+    };
+  }, [isLoading]);
 
   const isDesktop = windowDimension > 1024;
   
