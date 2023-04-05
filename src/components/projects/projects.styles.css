@@ -1,7 +1,7 @@
 .projects-wrapper {
     display:flex;
     flex-direction: column;
-    height: 80vh;
+    height: auto;
     width: 100%;
 }
 
@@ -12,7 +12,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 50%;
 }
 
 .additions-link-title,
@@ -22,6 +21,8 @@
     letter-spacing: .05rem;
     color: #c80001;
     margin: 1vh;
+    padding-top: 15vh;
+    padding-bottom: 2vh;
 }
 
 .additions-link-title,
@@ -29,7 +30,7 @@
 .concrete-link-title,
 .concrete-link-text {
     color: white;
-    font-size: 2.95rem;
+    font-size: 2.75rem;
     letter-spacing: .15rem;
 }
 
@@ -47,6 +48,8 @@
     letter-spacing: .06rem;
     word-spacing: .2rem;
     font-size: 1rem;
+    padding-bottom: 15vh;
+    
 }
 
 @media screen and (max-width: 1024px) {

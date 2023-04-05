@@ -50,9 +50,10 @@
 
 @media screen and (max-width: 1024px) {
     .reason-card {
-        width: 65vw;
+        width: 60vw;
+        height: auto;
     }
-
+    
     .reasons-description, 
     .reason-text {
         font-size: 1.25rem;

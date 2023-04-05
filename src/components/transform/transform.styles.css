@@ -1,10 +1,12 @@
 .transform-wrapper {
     display: flex;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:45vh;
     background-color: white;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
 }
 
 .transform-reach {
@@ -38,9 +40,6 @@
 
 
 @media screen and (max-width: 1024px) {
-    .transform-wrapper {
-        height: 40vh;
-    }
     .transform-intro {
         font-size: 1.5rem;
     }
@@ -48,7 +47,7 @@
 
    @media screen and (max-width: 414px) {
     .transform-wrapper {
-        height: 50vh;
+
         padding-bottom: 2vh;
     }
     .transform-types {

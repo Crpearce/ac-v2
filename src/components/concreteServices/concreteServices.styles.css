@@ -1,9 +1,10 @@
 .concrete-services-link-container {
     display: flex;
     flex-direction: column;
-    height: 65vh;
     align-items: center;
     justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 8vh;
 }
 
 .concrete-services-link-header {
@@ -38,19 +39,12 @@
 
 
 @media screen and (max-width: 1024px) {
-    .concrete-services-link-container {
-        height: 40vh;
-    }
-
     .concrete-services-link-header {
         font-size: 2.15rem;
     }
 }
 
 @media screen and (max-width: 414px) {
-    .concrete-services-link-container {
-        height: 35vh;
-    }
     .concrete-services-link-header {
         font-size: 1.2rem;
     }

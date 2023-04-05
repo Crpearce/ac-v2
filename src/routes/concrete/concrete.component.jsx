@@ -1,13 +1,10 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import driveway from "../../assets/driveway.webp";
 import patio from "../../assets/patio.png";
 import retaining from "../../assets/retaining.webp";
 import foundation from "../../assets/foundation.webp";
-import concrete from '../../assets/concrete.webp'
-import concrete3 from '../../assets/concrete3.webp'
-
-
+import concrete from "../../assets/concrete.webp";
+import concrete3 from "../../assets/concrete3.webp";
 import AOS from "aos";
 import "./concrete.styles.css";
 import "aos/dist/aos.css";
