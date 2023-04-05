@@ -32,11 +32,7 @@ const Areas = ({ serviceAreas }) => {
       <iframe
         title="google map service location"
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d466718.41588733596!2d-104.60019083246868!3d39.77811802865113!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c813e194fd859%3A0x10fa5acd7d19f057!2sAlignment%20Construction%20LLC!5e0!3m2!1sen!2sus!4v1679942858374!5m2!1sen!2sus"
-        width="650"
-        height="450"
-        style={{ border: 0 }}
         loading="lazy"
-        data-aos="zoom-in"
         className="google-map"
       ></iframe>
       <Link to="/contact">

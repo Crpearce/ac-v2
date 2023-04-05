@@ -1,6 +1,7 @@
 .concrete-additions-wrapper {
     display: flex;
     flex-direction: row-reverse;
+    padding-top: 12vh;
 }
 
 .concrete-contact-button {

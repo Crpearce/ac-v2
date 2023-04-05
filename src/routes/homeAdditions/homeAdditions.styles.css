@@ -1,5 +1,6 @@
 .home-additions-wrapper {
     display: flex;
+    padding-top: 12vh;
 }
 
 .home-images-container,

@@ -33,6 +33,10 @@
     width: 60%;
 }
 
+.logo2 {
+    width: 15%;
+}
+
 .hours-container {
     margin: 50px;
 }
@@ -42,3 +46,36 @@
     transition: all 600ms ease;
 }
 
+.contact-info {
+    font-family: 'Lato', sans-serif;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-form-container {
+        flex-direction: column;
+    }
+
+    .email-us {
+        margin: 0;
+    }
+
+    .contact-intro {
+        width: 100%;
+        padding-top: 0;
+    }
+
+    .contact-details-container {
+        padding-top: 2vh;
+    }
+
+    .logo2-container {
+        padding-top: 6vh;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .logo2 {
+        width: 30%;
+    }
+}

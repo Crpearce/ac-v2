@@ -47,7 +47,7 @@ const Form = () => {
           name="user_number"
           required
         ></input>
-        <textarea name="message" cols="30" rows="10" className="message"></textarea>
+        <textarea name="message" cols="10" rows="15" className="message"></textarea>
         <button className="send-email-button" type="submit">
           Send Message
         </button>

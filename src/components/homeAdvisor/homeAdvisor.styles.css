@@ -3,12 +3,13 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 2vh;
+    /* margin-bottom: 2vh; */
+    padding-bottom: 5vh;
 }
 
 .home-advisor-logo {
     width: 15vw;
-    padding-top:3vh;
+    padding-top:4vh;
 }
 
 .home-advisor-header {

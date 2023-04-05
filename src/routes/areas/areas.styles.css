@@ -34,9 +34,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
-
-    /* padding-bottom: 2vh;
-    padding-left: 2vw; */
     padding: 5px;
     background-color: white;
     border-style: solid;
@@ -55,5 +52,54 @@
 
 .google-map {
     margin-bottom: 2vh;
+    height: 500px;
+    width: 700px;
+}
+
+@media screen and (max-width: 1024px) {
+    .service-areas-wrapper {
+        padding-bottom: 4vh;
+    }
+
+    .service-area-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .areas-text {
+        width: 80%;
+        text-align: center;
+    }
+
+    .service-areas-list {
+        width: 80%;
+        margin-top: 0vh;
+    }
+
+    .google-map {
+        height: 400px;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .service-areas-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        padding-left: 5vw;
+        width: 85%;
+    }
+
+    .areas-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 85%;
+    }
+    .google-map {
+        height: 400px;
+        width: 325px;
+    }
 }
 
