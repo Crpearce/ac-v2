@@ -19,7 +19,6 @@
     font-size: 3.5rem;
     font-weight: 800;
     letter-spacing: .05rem;
-    color: #c80001;
     margin: 1vh;
     padding-top: 15vh;
     padding-bottom: 2vh;
@@ -33,9 +32,7 @@
     letter-spacing: .15rem;
 }
 
-.additions-link-container:hover,
 .additions-link-container:hover .additions-link-title,
-.concrete-link-container:hover,
 .concrete-link-container:hover .concrete-link-title {
     color: #c80001;
 }
