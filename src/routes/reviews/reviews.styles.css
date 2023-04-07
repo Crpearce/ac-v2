@@ -26,3 +26,25 @@
 .stars {
     width: 12%;
 }
+
+@media screen and (max-width: 1024px) {
+    .review {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .stars {
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .review {
+        width: 100%;
+        font-size: .9rem;
+    }
+
+    .stars {
+        width: 22%;
+    }
+}
