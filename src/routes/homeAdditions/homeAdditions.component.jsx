@@ -14,7 +14,7 @@ const HomeAdditions = () => {
   }, []);
 
   return (
-    <>
+    <section>
       <div className="home-additions-wrapper">
         <div
           className="home-images-container"
@@ -87,7 +87,7 @@ const HomeAdditions = () => {
           className="room-addition-image"
         />
       </div>
-    </>
+    </section>
   );
 };
 

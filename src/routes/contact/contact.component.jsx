@@ -12,7 +12,7 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="contact-wrapper">
+    <section className="contact-wrapper">
       <Banner sectionName="Contact" />
       <div className="contact-form-container">
         <Form />
@@ -41,7 +41,7 @@ const Contact = () => {
         </span>
       </div>
       <ServeBar />
-    </div>
+    </section>
   );
 };
 

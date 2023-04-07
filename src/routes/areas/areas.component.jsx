@@ -11,7 +11,7 @@ const Areas = ({ serviceAreas }) => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <div className="service-areas-wrapper">
+    <section className="service-areas-wrapper">
       <Banner sectionName="Service Areas" />
       <div className="service-area-container">
         <p className="areas-text">
@@ -38,7 +38,7 @@ const Areas = ({ serviceAreas }) => {
       <Link to="/contact">
         <button className="concrete-services-link-button">Contact Us</button>
       </Link>
-    </div>
+    </section>
   );
 };
 

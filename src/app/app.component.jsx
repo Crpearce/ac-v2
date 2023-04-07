@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { sections, reasons, cities } from "./data";
+import { sections, reasons, cities, reviews } from "./data";
 import Navigation from "../components/navigation/navigation.component";
 import Hamburger from "../components/hamburger/hamburger.component";
 import Home from "../routes/home/home.component";
@@ -44,7 +44,7 @@ function App() {
         <Route path="/home-additions" element={<HomeAdditions />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/areas" element={<Areas serviceAreas={cities} />} />
-        <Route path="/reviews" element={<Reviews />} />
+        <Route path="/reviews" element={<Reviews reviews={reviews}/>} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

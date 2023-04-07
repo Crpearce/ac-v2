@@ -1,11 +1,17 @@
 import './reviews.styles.css';
 import Banner from "../../components/banner/banner.component";
 
-const Reviews = () => {
+const Reviews = ({ reviews }) => {
+  console.log(reviews)
   return (
-    <div>
+    <section>
       <Banner sectionName="Reviews" />
-    </div>
+      <div className='reviews-container'>
+        {reviews.map((quote) => (
+          <p key={quote.id} >{quote.review}</p>
+        ))}
+      </div>
+    </section>
   );
 };
 

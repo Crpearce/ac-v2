@@ -16,7 +16,7 @@ const Concrete = () => {
   }, []);
 
   return (
-    <>
+    <section>
       <div className="concrete-additions-wrapper">
         <div className="home-details-container">
           <h4 className="home-additions-header" data-aos="fade-in">
@@ -183,7 +183,7 @@ const Concrete = () => {
           </div>
         </div>
       </div>
-    </>
+    </ section>
   );
 };
 
