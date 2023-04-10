@@ -3,7 +3,6 @@ import stars from '../../assets/stars.png';
 import Banner from "../../components/banner/banner.component";
 
 const Reviews = ({ reviews }) => {
-  console.log(reviews)
   return (
     <section>
       <Banner sectionName="Reviews" />
