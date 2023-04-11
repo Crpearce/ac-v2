@@ -51,7 +51,7 @@ export const reviews = [
 ]
 
 
-export const photoGallery = [
+export const boulderGallery = [
     {id: 0, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beam1}`},
     {id: 1, location: 'Boulder Remodel 2', desc: 'Laundy Room | Before', photo: `${beam1}`}
 

@@ -1,6 +1,18 @@
+.gallery-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .photo-location {
     color: black;
 }
+
 .gallery-photo {
-    width: 35%;
+    width: 65%;
 }
