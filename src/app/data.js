@@ -1,4 +1,9 @@
-import beam1 from '../assets/beam1.webp';
+import afterLaundry from '../assets/afterLaundry.webp';
+import beforeLaundry from '../assets/beforeLaundry.webp';
+import afterShower from '../assets/afterShower.webp';
+import beforeShower from '../assets/beforeShower.webp';
+
+
 
 export const sections = [
     {id: 0, link: '', title: 'HOME'},
@@ -52,7 +57,10 @@ export const reviews = [
 
 
 export const boulderGallery = [
-    {id: 0, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beam1}`},
-    {id: 1, location: 'Boulder Remodel 2', desc: 'Laundy Room | Before', photo: `${beam1}`}
+    {id: 0, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beforeLaundry}`},
+    {id: 1, location: 'Boulder Remodel', desc: 'Laundy Room | After', photo: `${afterLaundry}`},
+    {id: 2, location: 'Boulder Remodel', desc: 'Shower | Before', photo: `${beforeShower}`},
+    {id: 3, location: 'Boulder Remodel', desc: 'Shower | After', photo: `${afterShower}`}
+
 
 ]
