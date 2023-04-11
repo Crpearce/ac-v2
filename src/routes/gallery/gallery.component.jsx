@@ -3,7 +3,7 @@ import Banner from "../../components/banner/banner.component";
 import PhotosSection from "../../components/photosSection/photosSection.component";
 
 const Gallery = ({ boulderPhotos }) => {
-    console.log(boulderPhotos)
+
   return (
     <section>
       <Banner sectionName="Gallery" />

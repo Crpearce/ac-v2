@@ -1,0 +1,22 @@
+.photo-section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4vh;
+}
+
+.photo-location {
+    color: black;
+    padding: 20px;
+    margin: 0;
+    height: auto;
+}
+
+.gallery-photo {
+    width: 60%;
+}

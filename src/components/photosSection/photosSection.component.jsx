@@ -1,21 +1,23 @@
 import "./photosSection.styles.css";
 
-const PhotosSection = ({photos}) => {
-    console.log(photos)
+const PhotosSection = ({ photos }) => {
+
   return (
-    <div>
-        <h5 className="photo-location">{photos[0].location}</h5>
+    <>
+      <h5 className="photo-location">{photos[0].location}</h5>
+    <div className="photo-section-container">
       {photos.map((photo) => (
-        <div key={photo.id} className="photo-container">
+          <div key={photo.id} className="photo-container">
           <img
             src={photo.photo}
             alt="project gallery"
             className="gallery-photo"
-          />
+            />
           <span>{photo.desc}</span>
         </div>
       ))}
     </div>
+      </>
   );
 };
 
