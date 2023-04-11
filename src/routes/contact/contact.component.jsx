@@ -2,7 +2,7 @@ import Hours from "../../components/hours/hours.component";
 import Form from "../../components/form/form.component";
 import Banner from "../../components/banner/banner.component";
 import { Link } from "react-router-dom";
-import logo2 from '../../assets/logo2.webp';
+import logo2 from "../../assets/logo2.webp";
 import { useEffect } from "react";
 import "./contact.styles.css";
 import ServeBar from "../../components/serveBar/serveBar.component";
@@ -19,9 +19,13 @@ const Contact = () => {
         <Hours />
       </div>
       <div className="contact-details-container">
-      <Link to={'/'} aria-label="link to home" className="logo2-container">
-        <img src={logo2} alt="alignment construction logo" className="logo2" />
-      </Link>
+        <Link to={"/"} aria-label="link to home" className="logo2-container">
+          <img
+            src={logo2}
+            alt="alignment construction logo"
+            className="logo2"
+          />
+        </Link>
         <p className="contact-intro">
           Our team in Littleton, CO has over 15 years of experience. We
           specialize in structural wall installation, home addition, concrete

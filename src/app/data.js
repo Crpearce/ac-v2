@@ -2,6 +2,19 @@ import afterLaundry from '../assets/afterLaundry.webp';
 import beforeLaundry from '../assets/beforeLaundry.webp';
 import afterShower from '../assets/afterShower.webp';
 import beforeShower from '../assets/beforeShower.webp';
+import beforeReading from '../assets/beforeReading.webp';
+import afterReading from '../assets/afterReading.webp';
+import beforeWinecellar from '../assets/beforeWinecellar.webp';
+import afterWinecellar from '../assets/afterWinecellar.webp';
+
+import beforeBriggsBeam from '../assets/beforeBriggsBeam.webp';
+import afterBriggsBeam from '../assets/afterBriggsBeam.webp';
+import beforeBriggsBeam2 from '../assets/beforeBriggsBeam2.webp';
+import afterBriggsBeam2 from '../assets/afterBriggsBeam2.webp';
+
+
+
+
 
 
 
@@ -60,7 +73,16 @@ export const boulderGallery = [
     {id: 0, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beforeLaundry}`},
     {id: 1, location: 'Boulder Remodel', desc: 'Laundy Room | After', photo: `${afterLaundry}`},
     {id: 2, location: 'Boulder Remodel', desc: 'Shower | Before', photo: `${beforeShower}`},
-    {id: 3, location: 'Boulder Remodel', desc: 'Shower | After', photo: `${afterShower}`}
+    {id: 3, location: 'Boulder Remodel', desc: 'Shower | After', photo: `${afterShower}`},
+    {id: 4, location: 'Boulder Remodel', desc: 'Reading Nook | Before', photo: `${beforeReading}`},
+    {id: 5, location: 'Boulder Remodel', desc: 'Reading Nook | After', photo: `${afterReading}`},
+    {id: 6, location: 'Boulder Remodel', desc: 'Wine Cellar | Before', photo: `${beforeWinecellar}`},
+    {id: 7, location: 'Boulder Remodel', desc: 'Wine Cellar | After', photo: `${afterWinecellar}`}
+]
 
-
+export const briggsGallery = [
+    {id: 0, location: 'Briggs Beam Installation', desc: 'Briggs Beam 1 | Before', photo: `${beforeBriggsBeam}`},
+    {id: 1, location: 'Briggs Beam Installation', desc: 'Briggs Beam 1 | After', photo: `${afterBriggsBeam}`},
+    {id: 2, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
+    {id: 3, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
 ]
