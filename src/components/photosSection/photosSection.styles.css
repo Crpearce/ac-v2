@@ -29,10 +29,16 @@
     font-size: 1.15rem;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1024px) {
     .photo-section-container {
         grid-template-columns: repeat(1, 1fr);
     }
+    .gallery-photo {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 414px) {
     .gallery-photo {
         width: 80%;
     }
