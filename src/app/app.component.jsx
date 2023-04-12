@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { sections, reasons, cities, reviews, boulderGallery, briggsGallery, galleryMenu } from "./data";
+import { sections, reasons, cities, reviews, boulderGallery, briggsGallery, galleryMenu, jensenGallery } from "./data";
 import Navigation from "../components/navigation/navigation.component";
 import Hamburger from "../components/hamburger/hamburger.component";
 import Home from "../routes/home/home.component";
@@ -42,7 +42,7 @@ function App() {
         <Route path="/remodeling" element={<Remodeling />} />
         <Route path="/concrete" element={<Concrete />} />
         <Route path="/home-additions" element={<HomeAdditions />} />
-        <Route path="/gallery" element={<Gallery  boulderPhotos={boulderGallery} briggsPhotos={briggsGallery} menu={galleryMenu}/>} />
+        <Route path="/gallery" element={<Gallery  boulderPhotos={boulderGallery} briggsPhotos={briggsGallery} jensenPhotos={jensenGallery} menu={galleryMenu}/>} />
         <Route path="/areas" element={<Areas serviceAreas={cities} />} />
         <Route path="/reviews" element={<Reviews reviews={reviews}/>} />
         <Route path="/contact" element={<Contact />} />

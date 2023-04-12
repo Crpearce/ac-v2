@@ -6,11 +6,15 @@ import beforeReading from '../assets/beforeReading.webp';
 import afterReading from '../assets/afterReading.webp';
 import beforeWinecellar from '../assets/beforeWinecellar.webp';
 import afterWinecellar from '../assets/afterWinecellar.webp';
-
 import beforeBriggsBeam from '../assets/beforeBriggsBeam.webp';
 import afterBriggsBeam from '../assets/afterBriggsBeam.webp';
 import beforeBriggsBeam2 from '../assets/beforeBriggsBeam2.webp';
 import afterBriggsBeam2 from '../assets/afterBriggsBeam2.webp';
+import beforePatio1 from '../assets/beforePatio1.webp';
+import beforePatio2 from '../assets/beforePatio2.webp';
+import afterPatio1 from '../assets/afterPatio1.webp';
+import afterPatio2 from '../assets/afterPatio2.webp';
+
 
 
 
@@ -87,7 +91,15 @@ export const briggsGallery = [
     {id: 3, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
 ]
 
+export const jensenGallery = [
+    {id: 0, location: 'Jensen Patio Renovation', desc: ' Patio 1 | Before', photo: `${beforePatio1}`},
+    {id: 2, location: 'Jensen Patio Renovation', desc: ' Patio 1 | After', photo: `${afterPatio1}`},
+    {id: 3, location: 'Jensen Patio Renovation', desc: ' Patio 2 | before', photo: `${beforePatio2}`},
+    {id: 1, location: 'Jensen Patio Renovation', desc: ' Patio 2 | After', photo: `${afterPatio2}`},
+]
+
 export const galleryMenu = [
     {id:0, location: 'Boulder Remodel'},
-    {id:1, location: 'Briggs Beam Installation'}
+    {id:1, location: 'Briggs Beam Installation'},
+    {id:2, location: 'Jensen Patio Renovation'},
 ]

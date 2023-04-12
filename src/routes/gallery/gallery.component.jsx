@@ -3,8 +3,8 @@ import Banner from "../../components/banner/banner.component";
 import PhotosSection from "../../components/photosSection/photosSection.component";
 import "./gallery.styles.css";
 
-const Gallery = ({ boulderPhotos, briggsPhotos, menu }) => {
-  const [activeJob, setActiveJob] = useState('Boulder Remodel');
+const Gallery = ({ boulderPhotos, briggsPhotos, jensenPhotos, menu }) => {
+  const [activeJob, setActiveJob] = useState("Boulder Remodel");
 
   const handleClick = (event) => setActiveJob(event.target.className);
 
@@ -14,16 +14,25 @@ const Gallery = ({ boulderPhotos, briggsPhotos, menu }) => {
       <div className="gallery-wrapper">
         <div className="gallery-nav">
           {menu.map((project) => (
-            <span className={project.location} onClick={handleClick} key={project.id} id='gallery-nav-item'>
+            <span
+              className={project.location}
+              onClick={handleClick}
+              key={project.id}
+              id="gallery-nav-item"
+            >
               {project.location}
             </span>
           ))}
         </div>
-        {activeJob === 'Boulder Remodel' && (
-          <PhotosSection photos={boulderPhotos} trigger="boulderPhotos" />
+        {activeJob === "Boulder Remodel" && (
+          <PhotosSection photos={boulderPhotos} />
         )}
-        {activeJob === 'Briggs Beam Installation' && (
-          <PhotosSection photos={briggsPhotos} trigger="briggsPhotos" />
+        {activeJob === "Briggs Beam Installation" && (
+          <PhotosSection photos={briggsPhotos} />
+        )}
+
+        {activeJob === "Jensen Patio Renovation" && (
+          <PhotosSection photos={jensenPhotos} />
         )}
       </div>
     </section>
