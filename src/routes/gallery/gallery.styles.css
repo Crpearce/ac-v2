@@ -3,6 +3,16 @@
     flex-direction: column;
 }
 
-.project-name {
-    color: black;
+.gallery-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#gallery-nav-item {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color:red
 }

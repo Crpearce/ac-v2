@@ -14,7 +14,7 @@ const Gallery = ({ boulderPhotos, briggsPhotos, menu }) => {
       <div className="gallery-wrapper">
         <div className="gallery-nav">
           {menu.map((project) => (
-            <span className={project.location} onClick={handleClick} key={project.id}>
+            <span className={project.location} onClick={handleClick} key={project.id} id='gallery-nav-item'>
               {project.location}
             </span>
           ))}
