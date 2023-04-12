@@ -11,12 +11,29 @@
 }
 
 .photo-location {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
     color: black;
-    padding: 20px;
+    padding: 25px;
     margin: 0;
     height: auto;
 }
 
 .gallery-photo {
     width: 60%;
+    padding-bottom: 1vh;
+}
+
+.gallery-photo-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.15rem;
+}
+
+@media screen and (max-width: 414px) {
+    .photo-section-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery-photo {
+        width: 80%;
+    }
 }

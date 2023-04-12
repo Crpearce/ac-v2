@@ -16,3 +16,8 @@
     font-size: 1rem;
     color:red
 }
+
+#gallery-nav-item:hover {
+    cursor: pointer;
+    color:white
+}

@@ -13,7 +13,7 @@ const PhotosSection = ({ photos }) => {
             alt="project gallery"
             className="gallery-photo"
             />
-          <span>{photo.desc}</span>
+          <span className="gallery-photo-description">{photo.desc}</span>
         </div>
       ))}
     </div>
