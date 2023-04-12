@@ -86,3 +86,8 @@ export const briggsGallery = [
     {id: 2, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
     {id: 3, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
 ]
+
+export const galleryMenu = [
+    {id:0, location: 'Boulder Remodel'},
+    {id:1, location: 'Briggs Beam Installation'}
+]

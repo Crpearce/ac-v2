@@ -11,6 +11,7 @@ const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  
   return (
     <section className="contact-wrapper">
       <Banner sectionName="Contact" />
