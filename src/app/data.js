@@ -12,8 +12,12 @@ import beforeBriggsBeam2 from '../assets/beforeBriggsBeam2.webp';
 import afterBriggsBeam2 from '../assets/afterBriggsBeam2.webp';
 import beforePatio1 from '../assets/beforePatio1.webp';
 import beforePatio2 from '../assets/beforePatio2.webp';
+import beforePatio3 from '../assets/beforePatio3.webp';
+import beforePatio4 from '../assets/beforePatio4.webp';
 import afterPatio1 from '../assets/afterPatio1.webp';
 import afterPatio2 from '../assets/afterPatio2.webp';
+import afterPatio3 from '../assets/afterPatio3.webp';
+import afterPatio4 from '../assets/afterPatio4.webp';
 import beforeKitchen1 from '../assets/beforeKitchen1.webp';
 import afterKitchen1 from '../assets/afterKitchen1.webp';
 
@@ -81,12 +85,17 @@ export const gallery = [
     {id: 9, location: 'Briggs Beam Installation', desc: 'Briggs Beam | After', photo: `${afterBriggsBeam}`},
     {id: 10, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
     {id: 11, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
-    {id: 12, location: 'Jensen Patio Renovation', desc: ' Patio | Before', photo: `${beforePatio1}`},
-    {id: 13, location: 'Jensen Patio Renovation', desc: ' Patio | After', photo: `${afterPatio1}`},
-    {id: 14, location: 'Jensen Patio Renovation', desc: ' Patio 2 | Before', photo: `${beforePatio2}`},
-    {id: 15, location: 'Jensen Patio Renovation', desc: ' Patio 2 | After', photo: `${afterPatio2}`},
-    {id: 16, location: 'Washington Kitchen', desc: ' Kitchen | After', photo: `${beforeKitchen1}`},
-    {id: 17, location: 'Washington Kitchen', desc: ' Kitchen | After', photo: `${afterKitchen1}`},
+    {id: 12, location: 'Jensen Patio Renovation', desc: 'Patio | Before', photo: `${beforePatio1}`},
+    {id: 13, location: 'Jensen Patio Renovation', desc: 'Patio | After', photo: `${afterPatio1}`},
+    {id: 14, location: 'Jensen Patio Renovation', desc: 'Patio 2 | Before', photo: `${beforePatio2}`},
+    {id: 15, location: 'Jensen Patio Renovation', desc: 'Patio 2 | After', photo: `${afterPatio2}`},
+    {id: 16, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${beforeKitchen1}`},
+    {id: 17, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${afterKitchen1}`},
+    {id: 18, location: 'Lucas Patio', desc: 'Patio | Before', photo: `${beforePatio3}`},
+    {id: 19, location: 'Lucas Patio', desc: 'Patio | After', photo: `${afterPatio3}`},
+    {id: 20, location: 'Maloney Patio', desc: 'Patio | Before', photo: `${beforePatio4}`},
+    {id: 21, location: 'Maloney Patio', desc: 'Patio | After', photo: `${afterPatio4}`},
+
 
 ]
 

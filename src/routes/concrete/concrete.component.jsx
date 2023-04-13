@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import driveway from "../../assets/driveway.webp";
-import patio from "../../assets/patio.png";
+import afterPatio4 from "../../assets/afterPatio4.webp";
 import retaining from "../../assets/retaining.webp";
 import foundation from "../../assets/foundation.webp";
 import concrete from "../../assets/concrete.webp";
@@ -118,7 +118,7 @@ const Concrete = () => {
           </h5>
           <div className="concrete-additions-info-container2">
             <img
-              src={patio}
+              src={afterPatio4}
               className="concrete-additions-photo"
               alt="concrete project"
             />
