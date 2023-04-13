@@ -1,26 +1,28 @@
 .photo-section-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-top: 3vh;
 }
 
 .photo-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-bottom: 4vh;
 }
 
 .photo-location {
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: black;
-    padding: 25px;
+    padding: 5px;
     margin: 0;
     height: auto;
 }
 
 .gallery-photo {
-    width: 60%;
+    width: 65%;
     padding-bottom: 1vh;
 }
 

@@ -14,12 +14,8 @@ import beforePatio1 from '../assets/beforePatio1.webp';
 import beforePatio2 from '../assets/beforePatio2.webp';
 import afterPatio1 from '../assets/afterPatio1.webp';
 import afterPatio2 from '../assets/afterPatio2.webp';
-
-
-
-
-
-
+import beforeKitchen1 from '../assets/beforeKitchen1.webp';
+import afterKitchen1 from '../assets/afterKitchen1.webp';
 
 
 export const sections = [
@@ -72,8 +68,7 @@ export const reviews = [
     {id: 3, name: '-Lori B.', review:`"Absolutely impressive in all aspects of the work performed: good quality, on time, answered all questions and explained the process and finished the job per the plan. I would definitely use Vance at Alignment Construction for any future work!!"`}
 ]
 
-
-export const boulderGallery = [
+export const gallery = [
     {id: 0, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beforeLaundry}`},
     {id: 1, location: 'Boulder Remodel', desc: 'Laundy Room | After', photo: `${afterLaundry}`},
     {id: 2, location: 'Boulder Remodel', desc: 'Shower | Before', photo: `${beforeShower}`},
@@ -81,21 +76,18 @@ export const boulderGallery = [
     {id: 4, location: 'Boulder Remodel', desc: 'Reading Nook | Before', photo: `${beforeReading}`},
     {id: 5, location: 'Boulder Remodel', desc: 'Reading Nook | After', photo: `${afterReading}`},
     {id: 6, location: 'Boulder Remodel', desc: 'Wine Cellar | Before', photo: `${beforeWinecellar}`},
-    {id: 7, location: 'Boulder Remodel', desc: 'Wine Cellar | After', photo: `${afterWinecellar}`}
-]
+    {id: 7, location: 'Boulder Remodel', desc: 'Wine Cellar | After', photo: `${afterWinecellar}`},
+    {id: 8, location: 'Briggs Beam Installation', desc: 'Briggs Beam | Before', photo: `${beforeBriggsBeam}`},
+    {id: 9, location: 'Briggs Beam Installation', desc: 'Briggs Beam | After', photo: `${afterBriggsBeam}`},
+    {id: 10, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
+    {id: 11, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
+    {id: 12, location: 'Jensen Patio Renovation', desc: ' Patio | Before', photo: `${beforePatio1}`},
+    {id: 13, location: 'Jensen Patio Renovation', desc: ' Patio | After', photo: `${afterPatio1}`},
+    {id: 14, location: 'Jensen Patio Renovation', desc: ' Patio 2 | Before', photo: `${beforePatio2}`},
+    {id: 15, location: 'Jensen Patio Renovation', desc: ' Patio 2 | After', photo: `${afterPatio2}`},
+    {id: 16, location: 'Washington Kitchen', desc: ' Kitchen | After', photo: `${beforeKitchen1}`},
+    {id: 17, location: 'Washington Kitchen', desc: ' Kitchen | After', photo: `${afterKitchen1}`},
 
-export const briggsGallery = [
-    {id: 0, location: 'Briggs Beam Installation', desc: 'Briggs Beam 1 | Before', photo: `${beforeBriggsBeam}`},
-    {id: 1, location: 'Briggs Beam Installation', desc: 'Briggs Beam 1 | After', photo: `${afterBriggsBeam}`},
-    {id: 2, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
-    {id: 3, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
-]
-
-export const jensenGallery = [
-    {id: 0, location: 'Jensen Patio Renovation', desc: ' Patio 1 | Before', photo: `${beforePatio1}`},
-    {id: 2, location: 'Jensen Patio Renovation', desc: ' Patio 1 | After', photo: `${afterPatio1}`},
-    {id: 3, location: 'Jensen Patio Renovation', desc: ' Patio 2 | before', photo: `${beforePatio2}`},
-    {id: 1, location: 'Jensen Patio Renovation', desc: ' Patio 2 | After', photo: `${afterPatio2}`},
 ]
 
 export const galleryMenu = [
