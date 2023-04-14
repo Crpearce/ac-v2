@@ -88,7 +88,7 @@ export const gallery = [
     {id: 0, location: 'Littleton Remodel', desc: 'Kitchen | After', photo: `${afterKitchen2}`},
     {id: 1, location: 'Littleton Remodel', desc: 'Kitchen | After', photo: `${afterKitchen3}`},
     {id: 2, location: 'Aldretti Remodel', desc: 'Kitchen | After', photo: `${afterKitchen4}`},
-    {id: 3, location: 'Littleton Remodel', desc: 'Kitchen | After', photo: `${afterKitchen5}`},
+    {id: 3, location: 'Littleton Remodel 2', desc: 'Kitchen | After', photo: `${afterKitchen5}`},
     {id: 4, location: 'Washington Kitchen', desc: 'Kitchen | Before', photo: `${beforeKitchen1}`},
     {id: 5, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${afterKitchen1}`},
     {id: 6, location: 'Apartment Remodel', desc: 'Living Room | Before', photo: `${beforeBasement}`},
