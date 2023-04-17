@@ -19,18 +19,20 @@ import afterPatio2 from '../assets/afterPatio2.webp';
 import afterPatio3 from '../assets/afterPatio3.webp';
 import afterPatio4 from '../assets/afterPatio4.webp';
 import beforeKitchen1 from '../assets/beforeKitchen1.webp';
+import beforeKitchen2 from '../assets/beforeKitchen2.webp';
 import afterKitchen1 from '../assets/afterKitchen1.webp';
 import afterKitchen2 from '../assets/afterKitchen2.webp';
-import afterKitchen3 from '../assets/afterKitchen3.webp';
 import afterKitchen4 from '../assets/afterKitchen4.webp';
 import afterKitchen5 from '../assets/afterKitchen5.webp';
 import beforeBasement from '../assets/beforeBasement.webp';
 import afterBasement from '../assets/basementRemodel.webp';
-
 import afterEntertainment1 from '../assets/entertainment1.webp';
 import afterEntertainment2 from '../assets/entertainment2.webp';
-
-
+import glenwoodKitchen from '../assets/glenwoodKitchen.webp';
+import glenwoodBasement from '../assets/glenwoodBasement.webp';
+import glenwoodBathroom from '../assets/glenwoodBathroom.webp';
+import glenwoodBedroom from '../assets/glenwoodBedroom.webp';
+import glenwoodBedroom2 from '../assets/glenwoodBedroom2.webp';
 
 
 
@@ -85,36 +87,41 @@ export const reviews = [
 ]
 
 export const gallery = [
-    {id: 0, location: 'Littleton Remodel', desc: 'Kitchen | After', photo: `${afterKitchen2}`},
-    {id: 1, location: 'Littleton Remodel', desc: 'Kitchen | After', photo: `${afterKitchen3}`},
-    {id: 2, location: 'Aldretti Remodel', desc: 'Kitchen | After', photo: `${afterKitchen4}`},
-    {id: 3, location: 'Littleton Remodel 2', desc: 'Kitchen | After', photo: `${afterKitchen5}`},
-    {id: 4, location: 'Washington Kitchen', desc: 'Kitchen | Before', photo: `${beforeKitchen1}`},
-    {id: 5, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${afterKitchen1}`},
-    {id: 6, location: 'Apartment Remodel', desc: 'Living Room | Before', photo: `${beforeBasement}`},
-    {id: 7, location: 'Apartment Remodel', desc: 'Living Room | After', photo: `${afterBasement}`},
-    {id: 8, location: 'Lucas Patio', desc: 'Patio | Before', photo: `${beforePatio3}`},
-    {id: 9, location: 'Lucas Patio', desc: 'Patio | After', photo: `${afterPatio3}`},
-    {id: 10, location: 'Littleton Renovation', desc: 'Entertainment Center | After', photo: `${afterEntertainment1}`},
-    {id: 11, location: 'New Build Modification', desc: 'Entertainment Center | After', photo: `${afterEntertainment2}`},
-    {id: 12, location: 'Boulder Remodel', desc: 'Shower | Before', photo: `${beforeShower}`},
-    {id: 13, location: 'Boulder Remodel', desc: 'Shower | After', photo: `${afterShower}`},
-    {id: 14, location: 'Boulder Remodel', desc: 'Reading Nook | Before', photo: `${beforeReading}`},
-    {id: 15, location: 'Boulder Remodel', desc: 'Reading Nook | After', photo: `${afterReading}`},
-    {id: 16, location: 'Boulder Remodel', desc: 'Wine Cellar | Before', photo: `${beforeWinecellar}`},
-    {id: 17, location: 'Boulder Remodel', desc: 'Wine Cellar | After', photo: `${afterWinecellar}`},
-    {id: 18, location: 'Jensen Patio Renovation', desc: 'Patio | Before', photo: `${beforePatio1}`},
-    {id: 19, location: 'Jensen Patio Renovation', desc: 'Patio | After', photo: `${afterPatio1}`},
-    {id: 20, location: 'Jensen Patio Renovation', desc: 'Patio 2 | Before', photo: `${beforePatio2}`},
-    {id: 21, location: 'Jensen Patio Renovation', desc: 'Patio 2 | After', photo: `${afterPatio2}`},
-    {id: 22, location: 'Briggs Beam Installation', desc: 'Briggs Beam | Before', photo: `${beforeBriggsBeam}`},
-    {id: 23, location: 'Briggs Beam Installation', desc: 'Briggs Beam | After', photo: `${afterBriggsBeam}`},
-    {id: 24, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
-    {id: 25, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
-    {id: 26, location: 'Maloney Patio', desc: 'Patio | Before', photo: `${beforePatio4}`},
-    {id: 27, location: 'Maloney Patio', desc: 'Patio | After', photo: `${afterPatio4}`},
-    {id: 28, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beforeLaundry}`},
-    {id: 29, location: 'Boulder Remodel', desc: 'Laundy Room | After', photo: `${afterLaundry}`},
+    {id: 0, location: 'Littleton Remodel', desc: 'Kitchen | Before', photo: `${beforeKitchen2}`},
+    {id: 1, location: 'Littleton Remodel', desc: 'Kitchen | After', photo: `${afterKitchen2}`},
+    {id: 2, location: 'Glenwood Remodel', desc: 'Kitchen: Before | After', photo: `${glenwoodKitchen}`},
+    {id: 3, location: 'Glenwood Remodel', desc: 'Bathroom: Before | After', photo: `${glenwoodBathroom}`},
+    {id: 4, location: 'Glenwood Remodel', desc: 'Bedroom: Before | After', photo: `${glenwoodBedroom}`},
+    {id: 5, location: 'Glenwood Remodel', desc: 'Bedroom 2: Before | After', photo: `${glenwoodBedroom2}`},
+    {id: 6, location: 'Glenwood Remodel', desc: 'Basement: Before | After', photo: `${glenwoodBasement}`},
+    {id: 7, location: 'Aldretti Kitchen Remodel', desc: 'Kitchen | After', photo: `${afterKitchen4}`},
+    {id: 8, location: 'Littleton Kitchen Remodel', desc: 'Kitchen | After', photo: `${afterKitchen5}`},
+    {id: 9, location: 'Washington Kitchen', desc: 'Kitchen | Before', photo: `${beforeKitchen1}`},
+    {id: 10, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${afterKitchen1}`},
+    {id: 11, location: 'Apartment Remodel', desc: 'Living Room | Before', photo: `${beforeBasement}`},
+    {id: 12, location: 'Apartment Remodel', desc: 'Living Room | After', photo: `${afterBasement}`},
+    {id: 13, location: 'Lucas Patio', desc: 'Patio | Before', photo: `${beforePatio3}`},
+    {id: 14, location: 'Lucas Patio', desc: 'Patio | After', photo: `${afterPatio3}`},
+    {id: 15, location: 'Littleton Renovation', desc: 'Entertainment Center | After', photo: `${afterEntertainment1}`},
+    {id: 16, location: 'New Build Modification', desc: 'Entertainment Center | After', photo: `${afterEntertainment2}`},
+    {id: 17, location: 'Jensen Patio Renovation', desc: 'Patio | Before', photo: `${beforePatio1}`},
+    {id: 18, location: 'Jensen Patio Renovation', desc: 'Patio | After', photo: `${afterPatio1}`},
+    {id: 19, location: 'Jensen Patio Renovation', desc: 'Patio 2 | Before', photo: `${beforePatio2}`},
+    {id: 20, location: 'Jensen Patio Renovation', desc: 'Patio 2 | After', photo: `${afterPatio2}`},
+    {id: 21, location: 'Briggs Beam Installation', desc: 'Briggs Beam | Before', photo: `${beforeBriggsBeam}`},
+    {id: 22, location: 'Briggs Beam Installation', desc: 'Briggs Beam | After', photo: `${afterBriggsBeam}`},
+    {id: 23, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | Before', photo: `${beforeBriggsBeam2}`},
+    {id: 24, location: 'Briggs Beam Installation', desc: 'Briggs Beam 2 | After', photo: `${afterBriggsBeam2}`},
+    {id: 25, location: 'Maloney Patio', desc: 'Patio | Before', photo: `${beforePatio4}`},
+    {id: 26, location: 'Maloney Patio', desc: 'Patio | After', photo: `${afterPatio4}`},
+    {id: 27, location: 'Boulder Remodel', desc: 'Reading Nook | Before', photo: `${beforeReading}`},
+    {id: 28, location: 'Boulder Remodel', desc: 'Reading Nook | After', photo: `${afterReading}`},
+    {id: 29, location: 'Boulder Remodel', desc: 'Wine Cellar | Before', photo: `${beforeWinecellar}`},
+    {id: 30, location: 'Boulder Remodel', desc: 'Wine Cellar | After', photo: `${afterWinecellar}`},
+    {id: 31, location: 'Boulder Remodel', desc: 'Shower | Before', photo: `${beforeShower}`},
+    {id: 32, location: 'Boulder Remodel', desc: 'Shower | After', photo: `${afterShower}`},
+    {id: 33, location: 'Boulder Remodel', desc: 'Laundy Room | Before', photo: `${beforeLaundry}`},
+    {id: 34, location: 'Boulder Remodel', desc: 'Laundy Room | After', photo: `${afterLaundry}`},
 ]
 
 export const galleryMenu = [
