@@ -95,14 +95,14 @@ export const gallery = [
     {id: 5, location: 'Glenwood Remodel', desc: 'Bedroom 2: Before | After', photo: `${glenwoodBedroom2}`},
     {id: 6, location: 'Glenwood Remodel', desc: 'Basement: Before | After', photo: `${glenwoodBasement}`},
     {id: 7, location: 'Aldretti Kitchen Remodel', desc: 'Kitchen | After', photo: `${afterKitchen4}`},
-    {id: 8, location: 'Littleton Kitchen Remodel', desc: 'Kitchen | After', photo: `${afterKitchen5}`},
-    {id: 9, location: 'Washington Kitchen', desc: 'Kitchen | Before', photo: `${beforeKitchen1}`},
-    {id: 10, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${afterKitchen1}`},
-    {id: 11, location: 'Apartment Remodel', desc: 'Living Room | Before', photo: `${beforeBasement}`},
-    {id: 12, location: 'Apartment Remodel', desc: 'Living Room | After', photo: `${afterBasement}`},
-    {id: 13, location: 'Lucas Patio', desc: 'Patio | Before', photo: `${beforePatio3}`},
-    {id: 14, location: 'Lucas Patio', desc: 'Patio | After', photo: `${afterPatio3}`},
-    {id: 15, location: 'Littleton Renovation', desc: 'Entertainment Center | After', photo: `${afterEntertainment1}`},
+    {id: 8, location: 'Littleton Renovation', desc: 'Entertainment Center | After', photo: `${afterEntertainment1}`},
+    {id: 9, location: 'Littleton Kitchen Remodel', desc: 'Kitchen | After', photo: `${afterKitchen5}`},
+    {id: 10, location: 'Washington Kitchen', desc: 'Kitchen | Before', photo: `${beforeKitchen1}`},
+    {id: 11, location: 'Washington Kitchen', desc: 'Kitchen | After', photo: `${afterKitchen1}`},
+    {id: 12, location: 'Apartment Remodel', desc: 'Living Room | Before', photo: `${beforeBasement}`},
+    {id: 13, location: 'Apartment Remodel', desc: 'Living Room | After', photo: `${afterBasement}`},
+    {id: 14, location: 'Lucas Patio', desc: 'Patio | Before', photo: `${beforePatio3}`},
+    {id: 15, location: 'Lucas Patio', desc: 'Patio | After', photo: `${afterPatio3}`},
     {id: 16, location: 'New Build Modification', desc: 'Entertainment Center | After', photo: `${afterEntertainment2}`},
     {id: 17, location: 'Jensen Patio Renovation', desc: 'Patio | Before', photo: `${beforePatio1}`},
     {id: 18, location: 'Jensen Patio Renovation', desc: 'Patio | After', photo: `${afterPatio1}`},
@@ -124,8 +124,3 @@ export const gallery = [
     {id: 34, location: 'Boulder Remodel', desc: 'Laundy Room | After', photo: `${afterLaundry}`},
 ]
 
-export const galleryMenu = [
-    {id:0, location: 'Boulder Remodel'},
-    {id:1, location: 'Briggs Beam Installation'},
-    {id:2, location: 'Jensen Patio Renovation'},
-]
