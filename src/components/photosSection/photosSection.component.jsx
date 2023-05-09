@@ -11,7 +11,7 @@ const PhotosSection = ({ photos }) => {
               alt="project gallery"
               className="gallery-photo"
             />
-            <h6 className="photo-location">{photo.location}</h6>
+            {/* <h6 className="photo-location">{photo.location}</h6> */}
             <span className="gallery-photo-description">{photo.desc}</span>
           </div>
         ))}
