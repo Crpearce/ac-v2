@@ -8,7 +8,6 @@ import beforeWinecellar from '../assets/beforeWinecellar.webp';
 import afterWinecellar from '../assets/afterWinecellar.webp';
 import beforeBriggsBeam from '../assets/beforeBriggsBeam.webp';
 import afterBriggsBeam from '../assets/afterBriggsBeam.webp';
-import beforeBriggsBeam2 from '../assets/beforeBriggsBeam2.webp';
 import afterBriggsBeam2 from '../assets/afterBriggsBeam2.webp';
 import beforePatio1 from '../assets/beforePatio1.webp';
 import beforePatio2 from '../assets/beforePatio2.webp';
@@ -34,8 +33,6 @@ import glenwoodBathroom from '../assets/glenwoodBathroom.webp';
 import glenwoodBedroom from '../assets/glenwoodBedroom.webp';
 import glenwoodBedroom2 from '../assets/glenwoodBedroom2.webp';
 
-
-
 export const sections = [
     {id: 0, link: '', title: 'HOME'},
     {id: 1, link: 'about', title: 'ABOUT US'},
@@ -54,6 +51,14 @@ export const reasons = [
     {id: 1, reason: 'Are Licensed and insured'},
     {id: 2, reason: 'Will work with your timeline and budget'},
     {id: 3, reason: 'Always maintain excellent communication'},
+]
+
+export const services = [
+    {id: 0, service: 'Structural wall installation services', link: 'structural'},
+    {id: 1, service: 'Load-bearing beam installation services', link: 'structural'},
+    {id: 2, service: 'Concrete flatwork services', link: 'concrete'},
+    {id: 3, service: 'Home addition services', link: 'home-additions'},
+    {id: 4, service: 'Home remodeling services', link: 'remodeling'},
 ]
 
 export const cities = [

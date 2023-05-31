@@ -5,11 +5,12 @@ import Projects from '../../components/projects/projects.component';
 import Transform from '../../components/transform/transform.component';
 import ConcreteServices from '../../components/concreteServices/concreteServices.component';
 import Hours from '../../components/hours/hours.component';
+import LearnMore from '../../components/learnMore/learnMore.component';
 import './home.styles.css';
 import { useEffect } from 'react';
 
 
-const Home = ({ justification }) => {
+const Home = ({ justification, services }) => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
@@ -20,6 +21,7 @@ const Home = ({ justification }) => {
             <WorkTypes />
             <Reasons reasons={justification}/>
             <Projects />
+            <LearnMore  services={services}/>
             <ConcreteServices />
             <Hours />
         </section>
