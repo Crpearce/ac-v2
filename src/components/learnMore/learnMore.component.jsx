@@ -15,7 +15,7 @@ const LearnMore = ({ services }) => {
         <ul className='list'>
           {services.map((service) => (
             <li key={service.id} className='service-card'>
-              <Link to={service.link}>
+              <Link key={service.id} to={service.link}>
                 <span className='service-text'>{service.service}</span>
               </Link>
             </li>
