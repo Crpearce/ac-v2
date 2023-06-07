@@ -67,7 +67,7 @@
 }
 
 .concrete-additions-photo {
-    width: 27vw;
+    width: 28vw;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
@@ -78,10 +78,10 @@
     word-break: break-word;
 }
 
-.concrete-additions-photo:hover {
+/* .concrete-additions-photo:hover {
     transform: scale(1.3);
     transition: transform .75s ease;
-}
+} */
 
 .concrete-image {
     width: 35vw;
@@ -125,6 +125,7 @@
 
     .concrete-additions-photo {
         width: 55%;
+        transform: initial;
     }
 
     .concrete-additions-info1,
@@ -161,6 +162,7 @@
 
     .concrete-additions-photo {
         width: 75%;
+        transform: none;
     }
 
     .concrete-additions-info1,

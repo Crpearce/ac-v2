@@ -47,8 +47,8 @@
 
    @media screen and (max-width: 414px) {
     .transform-wrapper {
-
-        padding-bottom: 2vh;
+        padding-top: 2vh;
+        padding-bottom: 4vh;
     }
     .transform-types {
         width: 80%;
